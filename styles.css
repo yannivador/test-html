@@ -1,0 +1,139 @@
+/*  Fichier Css Street life  */
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+	font-family: verdana, sans-serif;
+    font-size: 0.9em;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.clear {
+    clear: both;
+}
+
+.blue {
+    color: #0087cc;
+}
+
+.aeration {
+	margin-top: 0.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #0087cc;
+}
+
+a:hover h2 {
+    color: #ff7b29;
+}
+
+p {
+    color: #555;
+}
+
+
+/***************** header *********/
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+/*    background-color: #ddd;*/
+    height: 18vh;
+}
+
+header a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #0087cc;
+}
+
+header a:hover {
+    opacity: 0.5;
+}
+
+header h1 {
+    font-size: 3.2em;
+    padding: 0.3em;
+    font-weight: normal;
+}
+
+/***************** nav *********/
+
+#main-nav {
+    background-color: #0087cc;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.item a {
+    display: block;
+    padding: 0.5em 0.8em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #ddd;
+}
+
+/***************** main *********/
+
+main img {max-width: 100%; }
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+	justify-content: space-between;
+/*    align-content: center;*/
+    width: 85%;
+}
+
+main article {
+    width: 32%;
+    padding: 1.2em 0 3em;
+}
+
+.date {
+    color: #929292;
+}
+
+/***************** footer *********/
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+	justify-content: space-between;
+    text-align: center;
+    height: 18vh;
+}
+
+#copyright {
+    color: #929292;
+}
+
+.social-link a:hover {
+    opacity: 0.5;
+}
+
+#hand {
+    font-size: 1.3em;
+    font-weight: bold;
+}
