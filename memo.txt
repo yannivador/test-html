@@ -1,0 +1,68 @@
+ljalma@qtech.re
+--------------------------------------
+Créer un projet laravel (nom : example-app) : 
+composer create-project laravel/laravel example-app
+---------------------------------------
+
+
+Commande pour laravel : 
+
+cd backend-planning/Dayliz_backend
+
+php artisan serve   // Lancer le serveur
+
+cd desktop/Projets-SIMPLON/Laravel/blog
+http://127.0.0.1:8000
+http://127.0.0.1/phpmyadmin/
+
+
+API : 
+
+https://dayliz.herokuapp.com/api/documentation
+
+
+
+React Native : 
+
+Lancer android studio et ouvrir l'émulateur
+
+cd Desktop\Projets-SIMPLON\projet-planning\ReactNativeProjects
+
+npx react-native init MyReactNativeApp // créer un projet MyReactNativeApp 
+
+cd projetTest // dans le terminal, se placer dans le répertoire du projet
+
+npx react-native run-android // lancer l'application
+
+Clé d'API : d101172c9e4c643e1f8251dce73e8cfd
+
+
+
+Commande pour vue.js : 
+
+récupérer le dossier de vue : https://github.com/AndryRaza/VueClientPlanning
+
+Aller dans le répertoire du projet : cd vue-planning\VueClientPlanning
+
+npm install
+
+npm run serve
+
+Aller à l'adresse http://localhost:3000/
+
+http://localhost:3000/planning   ==> pour voir les planning
+http://localhost:3000/examiner   ==> 
+http://localhost:3000/planning/1 ==> planning pour id 1
+
+
+JWT ? 
+
+
+---------------------------------------------------------------------
+
+Tuto Vue.js : 
+
+cd C:\Users\Yann\Desktop\Projets-SIMPLON\Vue-js\vue-project-starting_file\vue-project-starting_file
+
+http://localhost/vue-project-starting_file/#/
+
